@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+    
+    <h1>AVANCE DE PROYECTO FINAL 1 - JOHNNY RICHARD QUISPE TICONA</h1>
+    <button class="boton-cambio-fondo" onclick="cambiarFondo()">Cambiar Fondo</button>
+
+
+    <script>
+        let contador = 0;
+        function cambiarFondo() {
+            contador++;
+            document.body.className = 'fondo-' + (contador % 4 + 1);
+        }
+    </script>
+</body>
+</html>

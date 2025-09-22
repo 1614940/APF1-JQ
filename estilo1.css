@@ -1,0 +1,31 @@
+/* estilo1.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    transition: background-color 0.4s ease;
+    min-height: 100vh;
+}
+
+.boton-cambio-fondo {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-cambio-fondo:hover {
+    background-color: #1976d2;
+}
+
+/* Colores alternativos */
+.fondo-1 { background-color: #e3f2fd; }
+.fondo-2 { background-color: #f1f8e9; }
+.fondo-3 { background-color: #fff3e0; }
+.fondo-4 { background-color: #fce4ec; }
